@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Gelasio:400,400i|Great+Vibes&display=swap");
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-image: url(../image/background-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+}
+
+header .filtr {
+  background-color: rgba(0, 0, 0, 0.4);
+  min-height: 700px;
+}
+
+header .navbar-brand > p {
+  color: gold;
+  text-transform: capitalize;
+  font-size: 40px;
+  font-family: 'Great Vibes', cursive;
+  padding-top: 45px;
+}
+
+header .navbar-default {
+  background-color: rgba(14, 13, 13, 0.01);
+  border: none;
+}
+
+header .navbar-default .navbar-nav li a {
+  color: white;
+  text-transform: uppercase;
+  padding-top: 60px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+header .navbar-default .navbar-nav li a:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  color: white;
+}
+
+.text-center {
+  background: none;
+  color: white;
+}
+
+.text-center p {
+  padding-top: 110px;
+  font-weight: 400;
+  font-size: 42px;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Gelasio', serif;
+  letter-spacing: 2px;
+  text-shadow: #030303 0.1em 0.1em 0.5em;
+}
+
+.text-center h1 {
+  letter-spacing: 6px;
+  padding-top: 15px;
+  font-weight: 900;
+  font-size: 72px;
+  text-transform: uppercase;
+}
+
+.text-center .btn {
+  margin-top: 45px;
+  width: 250px;
+  height: 80px;
+  border: 1px solid #FED136;
+  background: #FED136;
+}
+
+.text-center a {
+  padding-top: 23px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.services h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 40px;
+  font-weight: 900;
+  color: black;
+}
+
+.services p {
+  text-transform: initial;
+  font-size: 14px;
+  font-weight: 200;
+  padding-top: 15px;
+  color: #757373;
+}
+
+.services .circle {
+  margin-top: 80px;
+  margin-left: 150px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 6px solid gold;
+  color: gold;
+}
+
+.services .circle img {
+  padding-top: 15px;
+}
+
+.services .description-title {
+  color: black;
+  font-size: 14px;
+  font-weight: 900;
+  text-align: center;
+  padding-left: 25px;
+}
+
+.services .description-title .description > p {
+  color: #757373;
+  font-size: 14px;
+}
+
+.portfolio {
+  margin-top: 100px;
+  background: #F7F7F7;
+}
+
+.portfolio h2 {
+  text-transform: uppercase;
+  padding-top: 150px;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 900;
+  color: black;
+}
+
+.portfolio p {
+  text-transform: initial;
+  font-size: 14px;
+  font-weight: 200;
+  padding-top: 15px;
+  color: #757373;
+}
+
+.portfolio img {
+  width: 100%;
+  height: 450px;
+  padding-top: 80px;
+}
+
+.portfolio .level-two {
+  margin-top: 20px;
+}
+
+.desc {
+  background: white;
+  margin-top: -22px;
+}
+
+.desc h3 {
+  color: black;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.desc p {
+  color: #757373;
+  font-size: 14px;
+  padding-bottom: 35px;
+  margin-top: -18px;
+  font-style: italic;
+}
+
+.about .photo-about > img {
+  width: 120px;
+  height: 120px;
+}
+/*# sourceMappingURL=style.css.map */
