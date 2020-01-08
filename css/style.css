@@ -21,7 +21,7 @@ header .navbar-brand > p {
   text-transform: capitalize;
   font-size: 40px;
   font-family: 'Great Vibes', cursive;
-  padding-top: 45px;
+  padding-top: 40px;
 }
 
 header .navbar-default {
@@ -74,11 +74,15 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 .text-center a {
-  padding-top: 23px;
+  padding-top: 28px;
   text-transform: uppercase;
   color: white;
   text-align: center;
   font-weight: bold;
+}
+
+.services {
+  text-align: center;
 }
 
 .services h2 {
@@ -126,13 +130,14 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 .portfolio {
-  margin-top: 100px;
+  margin-top: 80px;
   background: #F7F7F7;
+  text-align: center;
 }
 
 .portfolio h2 {
   text-transform: uppercase;
-  padding-top: 150px;
+  padding-top: 100px;
   text-align: center;
   font-size: 42px;
   font-weight: 900;
@@ -155,6 +160,7 @@ header .navbar-default .navbar-nav li a:hover {
 
 .portfolio .level-two {
   margin-top: 20px;
+  margin-bottom: 100px;
 }
 
 .desc {
@@ -178,8 +184,44 @@ header .navbar-default .navbar-nav li a:hover {
   font-style: italic;
 }
 
-.about .photo-about > img {
-  width: 120px;
-  height: 120px;
+.about-us {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.about-us h2 {
+  text-transform: uppercase;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 900;
+  color: black;
+}
+
+.about-us p {
+  text-transform: initial;
+  font-size: 14px;
+  font-weight: 200;
+  color: #757373;
+}
+
+.about-us .photo-about {
+  margin: 0 auto;
+}
+
+.about-us .photo-about img {
+  width: 180px;
+  height: 180px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.about-us .about-circle {
+  border: 6px solid #E7E6E6;
+  width: 180px;
+  height: 180px;
+  text-align: center;
+  background: #FED136;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
