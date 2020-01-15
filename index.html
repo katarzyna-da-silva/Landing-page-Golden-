@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
     integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
@@ -25,19 +25,20 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">
-                <p>golden</p>
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="mobile-menu">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
+            
+            <a class="navbar-brand" href="#">
+              <p>golden</p>
+            </a>  
+          </div>
+          <div class="collapse navbar-collapse" id="mobile-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
           </div>
         </nav>
         <div class="jumbotron text-center">
@@ -250,7 +251,7 @@
       <div class="row">
         <div class="col-sm-12 col-md-4">
           <div class="workers">
-            <img src="./image/face2.png" alt="workers-img">
+            <img src="./image/rico.png" alt="workers-img">
           </div>
           <div class="name">
             <h3 class="description-title">Ricco Massimo</h3>
@@ -262,7 +263,7 @@
         </div>
         <div class="col-sm-12 col-md-4">
           <div class="workers">
-            <img src="./image/face3.png" alt="workers-img">
+            <img src="./image/kimberly.png" alt="workers-img">
           </div>
           <div class="name">
             <h3 class="description-title">Kimberly Thompson</h3>
@@ -274,7 +275,7 @@
         </div>
         <div class="col-sm-12 col-md-4">
           <div class="workers">
-            <img src="./image/face1.png" alt="workers-img">
+            <img src="./image/woman1.png" alt="workers-img">
           </div>
           <div class="name">
             <h3 class="description-title">Uko Mason</h3>
@@ -286,39 +287,68 @@
       </div>
    <div class="text">
     <p>Proin condimentum neque et convallis efficitur. Donec ante tortor, lobortis sit amet sapien nec, faucibus cursus ante. Fusce sit amet felis sollicitudin sapien sagittis gravida. Phasellus nulla neque, tempus nec diam id, dignissim volutpat lectus. Aliquam erat volutpat. Pellentesque faucibus vulputate massa eget placerat. Integer vel arcu justo.
-
-    </p></div>
+    </p>
+  </div>
     </div>
   </section>
-
   <section class="brands">
     <div class="container">
-    <div class="row">
-        <img src="./image/brands.png" alt="logo-img">
+      <div class="row>">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <img src="image/brands.png" alt="envato">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <img src="image/wordpress.png" alt="wordpress">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <img src="image/tuts+.png" alt="tuts+">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <img src="image/microlancer.png" alt="microlancer">
+        </div>
       </div>
-      </div>
-  </section>
+    </div>
+  </section> 
   <section class="contact">
     <div class="container">
       <h1 class="title">contact us</h1>
       <p class="subtitle">Vivamus fermentum pellentesque tellus ornar</p>
+        <form>
         <div class="row">
           <div class="col-xs-12 col-sm-6">
             <input class="form-control" type="text" id="name" placeholder="Name *">
             <input class="form-control" type="email" id="email" placeholder="Your e-mail *">
             <input class="form-control" type="text" id="subject" placeholder="Subject">
           </div>
-            <div class="col-xs-12 col-sm-6">
+            <div class="col-xs-12 col-sm-6 form-message">
 							<textarea class="form-control">Your message</textarea>
-						</div>
+            </div>
+          </div>
+            <button type="submit" class="btn btn-default btn-lg">Send message</button>
+				</form>
         </div>
-
-      
-    </div>
   </section>
   <footer>
-
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-4 hidden-xs hidden-sm">
+          <p>@ Copyright 2014 FreebiesXpress.com</p>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-google-plus-g"></i>
+        </div>
+        <div class="col-xs-12 col-md-4 hidden-md hidden-lg">
+          <p>@ Copyright 2014 FreebiesXpress.com</p>
+        </div>
+      </div>
+    </div>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 </body>
 
 </html>
