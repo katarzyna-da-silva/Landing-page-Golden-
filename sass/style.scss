@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+
 body {
   font-family: 'Merriweather', serif;
 }
@@ -44,7 +45,6 @@ header {
       color: white;
       text-transform: uppercase;
       padding-top: 60px;
-    
 
       &:hover {
         transform: scale(1.1);
@@ -53,43 +53,44 @@ header {
       }
     }
 
-  border: none;
-}
-
-.jumbotron {
-  background: none;
-  color: rgb(255, 255, 255);
-  margin-top: 120px;
-
-  p {
-    font-size: 40px;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    border: none;
   }
 
-  .btn {
-    margin-top: 45px;
-    width: 220px;
-    height: 80px;
-    border: 1px solid #FED136;
-    background: #FED136;
-    text-shadow: grey 0.1em 0.1em 0.1em;
+  .jumbotron {
+    background: none;
+    color: rgb(255, 255, 255);
+    margin-top: 120px;
 
-    &:hover {
-      transform: scale(1.1);
-      transition-duration: 0.5s;
-      color: white;
+    p {
+      font-size: 40px;
+      text-shadow: black 0.1em 0.1em 0.2em;
+    }
+
+    .btn {
+      margin-top: 45px;
+      width: 220px;
+      height: 80px;
+      border: 1px solid #FED136;
+      background: #FED136;
+      text-shadow: grey 0.1em 0.1em 0.1em;
+
+      &:hover {
+        transform: scale(1.1);
+        transition-duration: 0.5s;
+        color: white;
+      }
+    }
+
+    a {
+      padding-top: 28px;
+      text-transform: uppercase;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      font-weight: bold;
     }
   }
-
-  a {
-    padding-top: 28px;
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-weight: bold;
-  }
 }
-}&
+
 .services {
   text-align: center;
 
@@ -258,6 +259,7 @@ header {
 
   .fa-twitter:hover {
     border: 3px solid rgb(83, 206, 200);
+
     &:hover {
       background-color: rgb(62, 201, 236);
     }
@@ -265,6 +267,7 @@ header {
 
   .fa-facebook-f:hover {
     border: 3px solid rgb(60, 134, 168);
+
     &:hover {
       background-color: rgb(60, 134, 168);
     }
@@ -272,6 +275,7 @@ header {
 
   .fa-google-plus-g:hover {
     border: 3px solid red;
+
     &:hover {
       background-color: red;
     }
@@ -279,6 +283,7 @@ header {
 
   .fa-pinterest-p:hover {
     border: 3px solid gold;
+
     &:hover {
       background-color: gold;
     }
@@ -286,8 +291,11 @@ header {
 }
 
 .brands {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 60px auto;
+
+  img {
+    margin: 25px auto;
+  }
 }
 
 .contact {
@@ -377,66 +385,88 @@ footer {
   }
 }
 
-// MQ 
+// // MQ 
 
 @media (max-width: 767px) {
-	.services, .about {
-		margin: 70px 0;
-	}
-	.portfolio {
-		padding: 70px 0;
-	}
-	.team {
-		padding-top: 50px;
-	}
-}
 
-.brands > img {
-  width: 500px;
-}
-@media (min-width: 768px) {
-	.navbar-brand img {
-		padding-top: 35px;
-	}
-	.navbar-default {
-		.navbar-nav li a {
-			padding: 50px 20px;
-		}
-	}
-}
+  .navbar-default {
+    padding-top: 25px;
+  }
 
-@media (max-width: 991px) {
-	.description-text {
-		margin-bottom: 50px;
-	}
-	.portfolio .first-row {
-		margin-bottom: 0;
-	}
-	.about {
-		.text-right, .text-left {
-			text-align: center;
-		}
-		.photo-box::after {
-			display: none;
-		}
-		.middle {
-			min-height: 183px;
-		}
-		.photo-description {
-			margin-top: 20px;
-		}
-	}
-	.team .description-text {
-		margin-bottom: 10px;
-	}
-	footer {
-		i.fab {
-			margin-bottom: 20px;
-		}
-	}
-}
-@media (min-width: 992px) {
-	footer p {
-		text-align: left;
-	}
+  .navbar-brand {
+    padding-top: 1px;
+    margin-top: -25px;
+  }
+
+  .services {
+    text-align: center;
+
+    .circle {
+
+      margin: 0 auto;
+      text-align: center;
+
+      img {
+
+        text-align: center;
+      }
+    }
+
+    .description-title {
+      text-align: center;
+      padding-left: 0;
+    }
+  }
+
+  .image>img {
+    margin-top: -35px;
+    margin-bottom: 25px;
+  }
+
+  .about {
+    margin: 0;
+
+    .photo-box {
+      img {
+        padding-top: -40px;
+        height: 163px;
+        width: 163px;
+      }
+
+      &::after {
+        display: none;
+      }
+    }
+
+    .last-circle {
+      height: 163px;
+      width: 163px;
+    }
+
+    .date {
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .description-title {
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .description-text {
+      text-align: justify;
+    }
+
+    .photo-description {
+      margin-top: -80px;
+      margin-bottom: 60px;
+    }
+  }
+
+  .brands {
+    text-align: center;
+  }
+
+  
+
 }
