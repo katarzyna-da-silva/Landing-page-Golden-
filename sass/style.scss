@@ -1,20 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
 
+/*variables*/
+$black: rgb(14, 13, 13);
+$color-title: rgb(190, 187, 187);
+$red-details: rgb(247, 17, 17);
+$gold-details:#FED136;
+$white: #ffffff;
+$blue-icons:rgb(62, 201, 236);
+
+/* mixin */
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
 body {
   font-family: 'Merriweather', serif;
 }
 
 .section-title {
   margin-top: 100px;
-  color: rgb(14, 13, 13);
+  color: $black;
   font-size: 36px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .section-subtitle {
-  color: rgb(190, 187, 187);
+  color: $color-title;
   margin-bottom: 80px;
   font-size: 14px;
 }
@@ -31,7 +46,7 @@ header {
   }
 
   .navbar-brand>p {
-    color: gold;
+    color: $gold-details;
     text-transform: capitalize;
     font-size: 36px;
     padding-top: 40px;
@@ -42,14 +57,14 @@ header {
     background-color: rgba(14, 13, 13, 0.01);
 
     .navbar-nav li a {
-      color: white;
+      color: $white;
       text-transform: uppercase;
       padding-top: 60px;
 
       &:hover {
         transform: scale(1.1);
         transition-duration: 0.5s;
-        color: white;
+        color: $white;
       }
     }
 
@@ -58,33 +73,33 @@ header {
 
   .jumbotron {
     background: none;
-    color: rgb(255, 255, 255);
+    color: $white;
     margin-top: 120px;
 
     p {
       font-size: 40px;
-      text-shadow: black 0.1em 0.1em 0.2em;
+      text-shadow: rgb(26, 26, 26) 0.1em 0.1em 0.2em;
     }
 
     .btn {
       margin-top: 45px;
       width: 220px;
       height: 80px;
-      border: 1px solid #FED136;
-      background: #FED136;
+      border: 1px solid $gold-details;
+      background: $gold-details;
       text-shadow: grey 0.1em 0.1em 0.1em;
 
       &:hover {
         transform: scale(1.1);
         transition-duration: 0.5s;
-        color: white;
+        color: $white;
       }
     }
 
     a {
       padding-top: 28px;
       text-transform: uppercase;
-      color: rgb(255, 255, 255);
+      color: $white;
       text-align: center;
       font-weight: bold;
     }
@@ -98,9 +113,9 @@ header {
     margin-left: 150px;
     width: 80px;
     height: 80px;
-    border-radius: 50%;
-    border: 6px solid gold;
-    color: gold;
+    @include border-radius(50%);
+    border: 6px solid $gold-details;
+    color: $gold-details;
 
     img {
       padding-top: 15px;
@@ -108,7 +123,7 @@ header {
   }
 
   .description-title {
-    color: rgb(0, 0, 0);
+    color: $black;
     font-size: 16px;
     font-weight: 900;
     text-align: center;
@@ -118,7 +133,7 @@ header {
 
 .portfolio {
   margin-top: 80px;
-  background: #F7F7F7;
+  background: $white;
   text-align: center;
 
   img {
@@ -134,11 +149,11 @@ header {
 }
 
 .desc {
-  background: white;
+  background: $white;
   margin-top: -22px;
 
   h3 {
-    color: black;
+    color: $black;
     font-size: 16px;
     font-weight: 900;
     text-align: center;
@@ -146,7 +161,7 @@ header {
   }
 
   p {
-    color: rgb(117, 115, 115);
+    color: $color-title;
     font-size: 14px;
     padding-bottom: 15px;
     margin-top: -5px;
@@ -169,7 +184,7 @@ header {
       display: inline-block;
       min-height: 90px;
       width: 3px;
-      background-color: #d3cfcf;
+      background-color: $color-title;
       position: absolute;
       top: 183px;
       left: 50%;
@@ -184,10 +199,10 @@ header {
   .last-circle {
     height: 183px;
     width: 183px;
-    border: 7px solid #E7E6E6;
-    background-color: gold;
-    border-radius: 50%;
-    color: white;
+    border: 7px solid $color-title;
+    background-color: $gold-details;
+    @include border-radius(50%);
+    color: $white;
     font-size: 22px;
     margin: 0 auto;
     display: flex;
@@ -196,55 +211,55 @@ header {
   }
 
   .date {
-    color: black;
+    color: $black;
     font-weight: bold;
     font-size: 18px;
   }
 
   .description-title {
     font-size: 16px;
-    color: black;
+    color: $black;
     font-weight: bold;
   }
 
   .description-text {
-    color: grey;
+    color: $color-title;
     font-size: 14px;
   }
 }
 
 .team {
   text-align: center;
-  background: #F7F7F7;
+  background: $white;
   margin-top: 150px;
 
   .workers>img {
-    border-radius: 50%;
+    @include border-radius(50%);
     width: 215px;
     height: 215px;
   }
 
   h3 {
     padding-top: 10px;
-    color: black;
+    color: $black;
     font-weight: bold;
   }
 
   .description {
     font-size: 18px;
-    color: rgb(209, 207, 207);
+    color: $color-title;
   }
 
   .text {
     margin-top: 30px;
     margin-bottom: 100px;
     font-size: 16px;
-    color: rgb(138, 138, 138);
+    color: $color-title;
   }
 
   .fab {
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 50%;
+    border: 3px solid $black;
+    @include border-radius(50%);
     width: 40px;
     height: 40px;
     margin: 8px;
@@ -258,10 +273,10 @@ header {
   }
 
   .fa-twitter:hover {
-    border: 3px solid rgb(83, 206, 200);
+    border: 3px solid $blue-icons;
 
     &:hover {
-      background-color: rgb(62, 201, 236);
+      background-color: $blue-icons;
     }
   }
 
@@ -277,15 +292,15 @@ header {
     border: 3px solid red;
 
     &:hover {
-      background-color: red;
+      background-color: $red-details;
     }
   }
 
   .fa-pinterest-p:hover {
-    border: 3px solid gold;
+    border: 3px solid $gold-details;
 
     &:hover {
-      background-color: gold;
+      background-color: $gold-details;
     }
   }
 }
@@ -308,14 +323,14 @@ header {
 
   .title {
     margin-top: 100px;
-    color: rgb(255, 255, 255);
+    color: $white;
     font-size: 36px;
     font-weight: bold;
     text-transform: uppercase;
   }
 
   .subtitle {
-    color: rgb(179, 179, 179);
+    color: $color-title;
     margin-bottom: 80px;
     font-size: 14px;
   }
@@ -337,17 +352,17 @@ header {
   .form-control {
     font-weight: bold;
     text-transform: uppercase;
-    color: #bbbbbb;
+    color: $color-title;
     margin-bottom: 30px;
   }
 
   .btn-default {
     margin-bottom: 115px;
     margin-top: 0;
-    color: white;
+    color: $white;
     font-weight: bold;
     text-transform: uppercase;
-    background-color: #FED136;
+    background-color: $gold-details;
     border: none;
 
     &:hover {
@@ -358,7 +373,7 @@ header {
 
   .btn-lg {
     padding: 25px 50px;
-    border-radius: 3px;
+    @include border-radius(3%);
   }
 }
 
@@ -367,16 +382,16 @@ footer {
   margin: 20px 0 20px 0;
 
   p {
-    color: #555555;
+    color: $color-title;
     margin-top: 10px;
   }
 
   i.fab {
-    color: white;
+    color: $white;
     background-color: rgb(39, 38, 38);
     line-height: 38px;
     border: 3px solid rgb(39, 38, 38);
-    border-radius: 50%;
+    @include border-radius(50%);
     width: 40px;
     height: 40px;
     margin: 5px;
@@ -466,7 +481,4 @@ footer {
   .brands {
     text-align: center;
   }
-
-  
-
 }
