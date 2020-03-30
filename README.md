@@ -4,8 +4,8 @@ Landing page.
 
 1. Used here:
 
--scss syntax
--bootstrap
--grid
--responsive layout
--npm - work tool
+- scss syntax
+- bootstrap
+- grid
+- responsive layout
+- npm - work tool
