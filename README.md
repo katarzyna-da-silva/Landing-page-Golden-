@@ -1,6 +1,6 @@
 # Landing-page-Golden
-landing page - bootstrap
-Landing page.
+https://katarzyna-da-silva.github.io/Landing-page-Golden/.
+Landing page - bootstrap
 
 1. Used here:
 
