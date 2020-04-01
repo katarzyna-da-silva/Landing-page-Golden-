@@ -16,6 +16,7 @@ $blue-icons:rgb(62, 201, 236);
   -ms-border-radius: $radius;
   border-radius: $radius;
 }
+
 body {
   font-family: 'Merriweather', serif;
 }
@@ -400,7 +401,7 @@ footer {
   }
 }
 
-// // MQ 
+// // Media query
 
 @media (max-width: 767px) {
 
@@ -480,5 +481,90 @@ footer {
 
   .brands {
     text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .description-title {
+    padding: 0 0 20px 0;
+  }
+
+  .services {
+    text-align: center;
+    padding: 15px;
+
+    .circle {
+      text-align: center;
+      margin: 30px auto;
+    }
+
+    .description-title {
+      text-align: center;
+      padding-left: 0;
+    }
+  }
+
+  .image>img {
+    margin-top: -35px;
+    margin-bottom: 25px;
+  }
+
+  .about {
+    margin: 0;
+
+    .photo-box {
+      img {
+        padding-top: -40px;
+        height: 163px;
+        width: 163px;
+      }
+
+      &::after {
+        display: none;
+      }
+    }
+
+    .last-circle {
+      height: 163px;
+      width: 163px;
+    }
+
+    .date {
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .description-title {
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .description-text {
+      text-align: justify;
+    }
+
+    .photo-description {
+      margin-top: -80px;
+      margin-bottom: 60px;
+    }
+
+    .brands {
+      text-align: center;
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .services {
+
+    .circle {
+      margin: 0 auto;
+    }
+
+    .description-title {
+      padding-left: 0;
+    }
   }
 }

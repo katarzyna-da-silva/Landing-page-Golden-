@@ -1,349 +1,423 @@
 <!DOCTYPE html>
-<html lang="pl">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Golden</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
-	<body>
-  <header>
-    <div class="container-fluid filtr">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Golden</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+      integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid filtr">
+        <div class="container">
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle collapsed"
+                  data-toggle="collapse"
+                  data-target="#mobile-menu"
+                  aria-expanded="false"
+                >
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                  <p>golden</p>
+                </a>
+              </div>
+              <div class="collapse navbar-collapse" id="mobile-menu">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="jumbotron text-center">
+            <p><i>Welcome To Our Studio!</i></p>
+            <h1>It's nice to meet you</h1>
+            <a class="btn btn-default btn-lg" href="#" role="button"
+              >Tell me more</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- section services -->
+    <section class="services">
       <div class="container">
-        <nav class="navbar navbar-default">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-menu"
-                aria-expanded="false">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            <a class="navbar-brand" href="#">
-              <p>golden</p>
-            </a>  
+        <h1 class="section-title">Services</h1>
+        <p class="section-subtitle">
+          Vivamus fermentum pellentesque tellus ornar
+        </p>
+        <div class="row image">
+          <div class="col-sm-12 col-md-4">
+            <div class="circle">
+              <img src="./image/icons1.png" alt="icons" />
+            </div>
+            <h3 class="description-title">E-Commerce</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+              feugiat ante eget sem fermentum, nec lacinia purus dictum. Aenean
+              pretium mollis lectus blandit venenatis.
+            </p>
           </div>
-          <div class="collapse navbar-collapse" id="mobile-menu">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Home</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
+          <div class="col-sm-12 col-md-4">
+            <div class="circle">
+              <img src="./image/icons2.png" alt="icons" />
+            </div>
+            <h3 class="description-title">Responsive web</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+              feugiat ante eget sem fermentum, nec lacinia purus dictum.
+            </p>
           </div>
-          </div>
-        </nav>
-        <div class="jumbotron text-center">
-          <p><i>Welcome To Our Studio!</i></p>
-          <h1>It's nice to meet you</h1>
-          <a class="btn btn-default btn-lg" href="#" role="button">Tell me more</a>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- section services -->
-  <section class="services">
-    <div class="container">
-      <h1 class="section-title">Services</h1>
-      <p class="section-subtitle">Vivamus fermentum pellentesque tellus ornar</p>
-      <div class="row image">
-        <div class="col-sm-12 col-md-4">
-          <div class="circle">
-            <img src="./image/icons1.png" alt="icons">
-          </div>
-          <h3 class="description-title">E-Commerce</h3>
-          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat ante eget sem
-            fermentum, nec lacinia purus dictum. Aenean pretium mollis lectus blandit venenatis. </p>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="circle">
-            <img src="./image/icons2.png" alt="icons">
-          </div>
-          <h3 class="description-title">Responsive web</h3>
-          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat ante eget sem
-            fermentum, nec lacinia purus dictum. </p>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="circle">
-            <img src="./image/icons3.png" alt="icons">
-          </div>
-          <h3 class="description-title">Web security</h3>
-          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat ante eget sem
-            fermentum, nec lacinia purus dictum. </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- section potfolio & image -->
-  <section class="portfolio">
-    <div class="container">
-      <h1 class="section-title">Portfolio</h1>
-      <p class="section-subtitle">Vivamus fermentum pellentesque tellus ornar</p>
-      <div class="row">
-        <div class="col-sm-12 col-md-4">
-          <div class="image">
-            <img src="./image/photo-portfolio.png" alt="portfolio">
-          </div>
-          <div class="desc">
-            <h3 class="description-title">Ebony & Ivory</h3>
-            <p class="description">Branding</p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="image">
-            <img src="./image/photo-portfolio-2.png" alt="portfolio">
-          </div>
-          <div class="desc">
-            <h3 class="description-title">Smart Stationary</h3>
-            <p class="description">Print Design</p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="image">
-            <img src="./image/photo-portfolio-3.png" alt="portfolio">
-          </div>
-          <div class="desc">
-            <h3 class="description-title">Clever Poster</h3>
-            <p class="description">Print Design</p>
+          <div class="col-sm-12 col-md-4">
+            <div class="circle">
+              <img src="./image/icons3.png" alt="icons" />
+            </div>
+            <h3 class="description-title">Web security</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+              feugiat ante eget sem fermentum, nec lacinia purus dictum.
+            </p>
           </div>
         </div>
       </div>
-      <div class="row level-two">
-        <div class="col-sm-12 col-md-4">
-          <div class="image">
-            <img src="./image/photo-portfolio-4.png" alt="portfolio">
-          </div>
-          <div class="desc">
-            <h3 class="description-title">Vinyl Record</h3>
-            <p class="description">Product Mock-Up</p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="image">
-            <img src="./image/photo-portfolio-5.png" alt="portfolio">
-          </div>
-          <div class="desc">
-            <h3 class="description-title">TreeHouse Template</h3>
-            <p class="description">Web Design</p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="image">
-            <img src="./image/photo-portfolio-6.png" alt="portfolio">
-          </div>
-          <div class="desc">
-            <h3 class="description-title">Burned Logo</h3>
-            <p class="description">Branding</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> 
-  <!-- section About -->
- <section class="about text-center" id="about">
-    <div class="container">
-      <h1 class="section-title">About us</h1>
-      <p class="section-subtitle">Vivamus fermentum pellentesque tellus ornare pharetra.</p>
-      <div class="row">
-        <div class="col-sm-12 col-md-4 hidden-xs hidden-sm">
-          <div class="photo-description text-right">
-            <p class="date">July 2010</p>
-            <p class="description-title">Our humble beginnings</p>
-            <p class="description-text">Cras semper pulvinar lorem, sit amet iaculis ante. Sed interdum elit ac risus
-              fringilla, eget maximus ipsum sagittis. Sed vel mi ac nunc egestas suscipit non a ligula. Maecenas lorem
-              orci, malesuada eu finibus eget, pellentesque a urna. </p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4 middle">
-          <div class="photo-box">
-            <img src="image/Image2.png" alt="photo1">
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4 hidden-md hidden-lg">
-          <div class="photo-description">
-            <p class="date">July 2010</p>
-            <p class="description-title">Our humble beginnings</p>
-            <p class="description-text">Cras semper pulvinar lorem, sit amet iaculis ante. Sed interdum elit ac risus
-              fringilla, eget maximus ipsum sagittis. Sed vel mi ac nunc egestas suscipit non a ligula. Maecenas lorem
-              orci, malesuada eu finibus eget, pellentesque a urna. </p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12 col-md-4 col-md-offset-4 middle">
-          <div class="photo-box">
-            <img src="image/Image3.png" alt="photo1">
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="photo-description text-left">
-            <p class="date">January 2011</p>
-            <p class="description-title">Facing startup battles</p>
-            <p class="description-text">Cras semper pulvinar lorem, sit amet iaculis ante. Sed interdum elit ac risus
-              fringilla, eget maximus ipsum sagittis. Sed vel mi ac nunc egestas suscipit non a ligula. Maecenas lorem
-              orci, malesuada eu.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12 col-md-4">
-          <div class="photo-description text-right hidden-xs hidden-sm">
-            <p class="date">December 2012</p>
-            <p class="description-title">Enter the dark days</p>
-            <p class="description-text">Cras semper pulvinar lorem, sit amet iaculis ante. Sed interdum elit ac risus
-              fringilla, eget maximus ipsum sagittis. Sed vel mi ac nunc egestas suscipit non a ligula. Maecenas lorem
-              orci, malesuada eu finibus eget, pellentesque a urna. </p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4 middle">
-          <div class="photo-box">
-            <img src="image/Image4.png" alt="photo1">
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4 hidden-md hidden-lg">
-          <div class="photo-description">
-            <p class="date">December 2012</p>
-            <p class="description-title">Enter the dark days</p>
-            <p class="description-text">Cras semper pulvinar lorem, sit amet iaculis ante. Sed interdum elit ac risus
-              fringilla, eget maximus ipsum sagittis. Sed vel mi ac nunc egestas suscipit non a ligula. Maecenas lorem
-              orci, malesuada eu finibus eget, pellentesque a urna. </p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12 col-md-4 col-md-offset-4 middle">
-          <div class="photo-box">
-            <img src="image/Image5.png" alt="photo1">
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="photo-description text-left">
-            <p class="date">February 2014</p>
-            <p class="description-title">Our triumph</p>
-            <p class="description-text">Cras semper pulvinar lorem, sit amet iaculis ante. Sed interdum elit ac risus
-              fringilla, eget maximus ipsum sagittis. Sed vel mi ac nunc egestas suscipit non a ligula. Maecenas lorem
-              orci. </p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12 col-md-4 col-md-offset-4">
-          <div class="last-circle">
-            <p>Our<br>story<br>continues<br>...</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- section Works -->
-   <section class="team">
-    <div class="container">
-      <h1 class="section-title">our amazing team</h1>
-      <p class="section-subtitle">Vivamus fermentum pellentesque tellus ornar</p>
-      <div class="row">
-        <div class="col-sm-12 col-md-4">
-          <div class="workers">
-            <img src="./image/rico.png" alt="workers-img">
-          </div>
-          <div class="name">
-            <h3 class="description-title">Ricco Massimo</h3>
-            <p class="description">Marketer</p>
-            <i class="fab fa-twitter"></i>
-							<i class="fab fa-facebook-f"></i>
-							<i class="fab fa-google-plus-g"></i>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="workers">
-            <img src="./image/kimberly.png" alt="workers-img">
-          </div>
-          <div class="name">
-            <h3 class="description-title">Kimberly Thompson</h3>
-            <p class="description">Coder</p>
-            <i class="fab fa-twitter"></i>
-							<i class="fab fa-facebook-f"></i>
-							<i class="fab fa-google-plus-g"></i>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="workers">
-            <img src="./image/woman1.png" alt="workers-img">
-          </div>
-          <div class="name">
-            <h3 class="description-title">Uko Mason</h3>
-            <p class="description">Graphic Designer</p>
-            <i class="fab fa-twitter"></i>
-							<i class="fab fa-facebook-f"></i>
-          </div>
-        </div>
-      </div>
-   <div class="text">
-    <p>Proin condimentum neque et convallis efficitur. Donec ante tortor, lobortis sit amet sapien nec, faucibus cursus ante. Fusce sit amet felis sollicitudin sapien sagittis gravida. Phasellus nulla neque, tempus nec diam id, dignissim volutpat lectus. Aliquam erat volutpat. Pellentesque faucibus vulputate massa eget placerat. Integer vel arcu justo.
-    </p>
-  </div>
-    </div>
-  </section>
-  <section class="brands">
-    <div class="container">
-      <div class="row media-logos">
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <img src="image/brands.png" alt="envato">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <img src="image/wordpress.png" alt="wordpress">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <img src="image/tuts+.png" alt="tuts+">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <img src="image/microlancer.png" alt="microlancer">
-        </div>
-      </div>
-    </div>
-  </section> 
-  <section class="contact">
-    <div class="container">
-      <h1 class="title">contact us</h1>
-      <p class="subtitle">Vivamus fermentum pellentesque tellus ornar</p>
-        <form>
+    </section>
+    <!-- section potfolio & image -->
+    <section class="portfolio">
+      <div class="container">
+        <h1 class="section-title">Portfolio</h1>
+        <p class="section-subtitle">
+          Vivamus fermentum pellentesque tellus ornar
+        </p>
         <div class="row">
-          <div class="col-xs-12 col-sm-6">
-            <input class="form-control" type="text" id="name" placeholder="Name *">
-            <input class="form-control" type="email" id="email" placeholder="Your e-mail *">
-            <input class="form-control" type="text" id="subject" placeholder="Subject">
-          </div>
-            <div class="col-xs-12 col-sm-6 form-message">
-							<textarea class="form-control">Your message</textarea>
+          <div class="col-sm-12 col-md-4">
+            <div class="image">
+              <img src="./image/photo-portfolio.png" alt="portfolio" />
+            </div>
+            <div class="desc">
+              <h3 class="description-title">Ebony & Ivory</h3>
+              <p class="description">Branding</p>
             </div>
           </div>
-            <button type="submit" class="btn btn-default btn-lg">Send message</button>
-				</form>
+          <div class="col-sm-12 col-md-4">
+            <div class="image">
+              <img src="./image/photo-portfolio-2.png" alt="portfolio" />
+            </div>
+            <div class="desc">
+              <h3 class="description-title">Smart Stationary</h3>
+              <p class="description">Print Design</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="image">
+              <img src="./image/photo-portfolio-3.png" alt="portfolio" />
+            </div>
+            <div class="desc">
+              <h3 class="description-title">Clever Poster</h3>
+              <p class="description">Print Design</p>
+            </div>
+          </div>
         </div>
-  </section>
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-4 hidden-xs hidden-sm">
-          <p>@ Copyright 2014 FreebiesXpress.com</p>
-        </div>
-        <div class="col-xs-12 col-md-4">
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-pinterest-p"></i>
-          <i class="fab fa-google-plus-g"></i>
-        </div>
-        <div class="col-xs-12 col-md-4 hidden-md hidden-lg">
-          <p>@ Copyright 2014 FreebiesXpress.com</p>
+        <div class="row level-two">
+          <div class="col-sm-12 col-md-4">
+            <div class="image">
+              <img src="./image/photo-portfolio-4.png" alt="portfolio" />
+            </div>
+            <div class="desc">
+              <h3 class="description-title">Vinyl Record</h3>
+              <p class="description">Product Mock-Up</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="image">
+              <img src="./image/photo-portfolio-5.png" alt="portfolio" />
+            </div>
+            <div class="desc">
+              <h3 class="description-title">TreeHouse Template</h3>
+              <p class="description">Web Design</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="image">
+              <img src="./image/photo-portfolio-6.png" alt="portfolio" />
+            </div>
+            <div class="desc">
+              <h3 class="description-title">Burned Logo</h3>
+              <p class="description">Branding</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </footer> 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</body>
-
+    </section>
+    <!-- section About -->
+    <section class="about text-center" id="about">
+      <div class="container">
+        <h1 class="section-title">About us</h1>
+        <p class="section-subtitle">
+          Vivamus fermentum pellentesque tellus ornare pharetra.
+        </p>
+        <div class="row">
+          <div class="col-sm-12 col-md-4 hidden-xs hidden-sm">
+            <div class="photo-description text-right">
+              <p class="date">July 2010</p>
+              <p class="description-title">Our humble beginnings</p>
+              <p class="description-text">
+                Cras semper pulvinar lorem, sit amet iaculis ante. Sed interdum
+                elit ac risus fringilla, eget maximus ipsum sagittis. Sed vel mi
+                ac nunc egestas suscipit non a ligula. Maecenas lorem orci,
+                malesuada eu finibus eget, pellentesque a urna.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 middle">
+            <div class="photo-box">
+              <img src="image/Image2.png" alt="photo1" />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 hidden-md hidden-lg">
+            <div class="photo-description">
+              <p class="date">July 2010</p>
+              <p class="description-title">Our humble beginnings</p>
+              <p class="description-text">
+                Cras semper pulvinar lorem, sit amet iaculis ante. Sed interdum
+                elit ac risus fringilla, eget maximus ipsum sagittis. Sed vel mi
+                ac nunc egestas suscipit non a ligula. Maecenas lorem orci,
+                malesuada eu finibus eget, pellentesque a urna.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-md-offset-4 middle">
+            <div class="photo-box">
+              <img src="image/Image3.png" alt="photo1" />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="photo-description text-left">
+              <p class="date">January 2011</p>
+              <p class="description-title">Facing startup battles</p>
+              <p class="description-text">
+                Cras semper pulvinar lorem, sit amet iaculis ante. Sed interdum
+                elit ac risus fringilla, eget maximus ipsum sagittis. Sed vel mi
+                ac nunc egestas suscipit non a ligula. Maecenas lorem orci,
+                malesuada eu.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <div class="photo-description text-right hidden-xs hidden-sm">
+              <p class="date">December 2012</p>
+              <p class="description-title">Enter the dark days</p>
+              <p class="description-text">
+                Cras semper pulvinar lorem, sit amet iaculis ante. Sed interdum
+                elit ac risus fringilla, eget maximus ipsum sagittis. Sed vel mi
+                ac nunc egestas suscipit non a ligula. Maecenas lorem orci,
+                malesuada eu finibus eget, pellentesque a urna.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 middle">
+            <div class="photo-box">
+              <img src="image/Image4.png" alt="photo1" />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 hidden-md hidden-lg">
+            <div class="photo-description">
+              <p class="date">December 2012</p>
+              <p class="description-title">Enter the dark days</p>
+              <p class="description-text">
+                Cras semper pulvinar lorem, sit amet iaculis ante. Sed interdum
+                elit ac risus fringilla, eget maximus ipsum sagittis. Sed vel mi
+                ac nunc egestas suscipit non a ligula. Maecenas lorem orci,
+                malesuada eu finibus eget, pellentesque a urna.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-md-offset-4 middle">
+            <div class="photo-box">
+              <img src="image/Image5.png" alt="photo1" />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="photo-description text-left">
+              <p class="date">February 2014</p>
+              <p class="description-title">Our triumph</p>
+              <p class="description-text">
+                Cras semper pulvinar lorem, sit amet iaculis ante. Sed interdum
+                elit ac risus fringilla, eget maximus ipsum sagittis. Sed vel mi
+                ac nunc egestas suscipit non a ligula. Maecenas lorem orci.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-md-offset-4">
+            <div class="last-circle">
+              <p>Our<br />story<br />continues<br />...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section Works -->
+    <section class="team">
+      <div class="container">
+        <h1 class="section-title">our amazing team</h1>
+        <p class="section-subtitle">
+          Vivamus fermentum pellentesque tellus ornar
+        </p>
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <div class="workers">
+              <img src="./image/rico.png" alt="workers-img" />
+            </div>
+            <div class="name">
+              <h3 class="description-title">Ricco Massimo</h3>
+              <p class="description">Marketer</p>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-google-plus-g"></i>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="workers">
+              <img src="./image/kimberly.png" alt="workers-img" />
+            </div>
+            <div class="name">
+              <h3 class="description-title">Kimberly Thompson</h3>
+              <p class="description">Coder</p>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-google-plus-g"></i>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="workers">
+              <img src="./image/woman1.png" alt="workers-img" />
+            </div>
+            <div class="name">
+              <h3 class="description-title">Uko Mason</h3>
+              <p class="description">Graphic Designer</p>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook-f"></i>
+            </div>
+          </div>
+        </div>
+        <div class="text">
+          <p>
+            Proin condimentum neque et convallis efficitur. Donec ante tortor,
+            lobortis sit amet sapien nec, faucibus cursus ante. Fusce sit amet
+            felis sollicitudin sapien sagittis gravida. Phasellus nulla neque,
+            tempus nec diam id, dignissim volutpat lectus. Aliquam erat
+            volutpat. Pellentesque faucibus vulputate massa eget placerat.
+            Integer vel arcu justo.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="brands">
+      <div class="container">
+        <div class="row media-logos">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <img src="image/brands.png" alt="envato" />
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <img src="image/wordpress.png" alt="wordpress" />
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <img src="image/tuts+.png" alt="tuts+" />
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <img src="image/microlancer.png" alt="microlancer" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="container">
+        <h1 class="title">contact us</h1>
+        <p class="subtitle">Vivamus fermentum pellentesque tellus ornar</p>
+        <form>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <input
+                class="form-control"
+                type="text"
+                id="name"
+                placeholder="Name *"
+              />
+              <input
+                class="form-control"
+                type="email"
+                id="email"
+                placeholder="Your e-mail *"
+              />
+              <input
+                class="form-control"
+                type="text"
+                id="subject"
+                placeholder="Subject"
+              />
+            </div>
+            <div class="col-xs-12 col-sm-6 form-message">
+              <textarea class="form-control">Your message</textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-default btn-lg">
+            Send message
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-4 hidden-xs hidden-sm">
+            <p>@ Copyright 2014 FreebiesXpress.com</p>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-google-plus-g"></i>
+          </div>
+          <div class="col-xs-12 col-md-4 hidden-md hidden-lg">
+            <p>@ Copyright 2014 FreebiesXpress.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
 </html>
